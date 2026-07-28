@@ -1,0 +1,33 @@
+# Merged environment for the current medtsllm2 main branch plus MOMENT.
+# Python 3.11 is recommended.
+numpy>=1.25.2,<2.0
+pandas>=2.0,<3
+plotly>=5.19
+matplotlib>=3.7
+tqdm>=4.66
+toml>=0.10.2
+numba>=0.58
+
+torch>=2.2.1,<3
+torchvision>=0.17
+
+transformers>=4.54.1,<5
+huggingface-hub>=0.24
+accelerate>=0.28
+peft>=0.10
+safetensors>=0.4
+sentencepiece>=0.1.99
+
+momentfm==0.1.4
+wfdb>=4.1
+
+einops>=0.7
+pytorch-optimizer>=2.11
+reformer-pytorch>=1.4.4
+scikit-learn>=1.4,<2
+bayesian-optimization>=1.4
+wandb>=0.16.4
+tensorboard>=2.16
+
+# Optional, only when load_in_4bit/load_in_8bit=true on a supported CUDA host:
+# bitsandbytes>=0.43

@@ -1,0 +1,10 @@
+# Install the repository's original requirements first, then this file.
+# MOMENT 0.1.4 requires newer NumPy/Transformers than the repository's old pins.
+numpy>=1.25.2,<2.0
+transformers>=4.54.1,<5
+huggingface-hub>=0.24
+momentfm==0.1.4
+accelerate>=0.28
+peft>=0.10
+safetensors>=0.4
+wfdb>=4.1
