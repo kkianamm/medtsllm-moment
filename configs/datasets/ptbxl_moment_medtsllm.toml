@@ -70,7 +70,7 @@ example_pool = 0
 
 [models.medtsllm.llm]
 enabled = true
-llm = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+llm = "meta-llama/Llama-2-7b-hf"
 load_in_4bit = false
 load_in_8bit = false
 llm_layers = -1
