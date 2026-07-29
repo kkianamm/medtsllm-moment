@@ -28,6 +28,8 @@ dropout = 0.1
 loss = "ce"
 class_weights = true
 label_smoothing = 0.05
+evaluate_test_each_epoch = true
+test_eval_interval = 1
 
 # L = CE(fused) + aux_weight * CE(branches)
 #     + alignment_weight * supervised cross-modal contrastive loss
